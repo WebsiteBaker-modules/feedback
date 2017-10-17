@@ -1,0 +1,25 @@
+<div class="fb_help">
+	<h2>Help for the Feedback Module {version}</h2>
+  <p>The Feedback Module uses the language files (EN.php, DE.php ...) for setting some defaults:</p>
+<pre>/**
+ * The following Constants will be used as DEFAULT VALUES at new sections
+ */
+// Show Last Feedback First 1=true 0=false
+define('fb_cfg_latest_first',                       1);
+// Send E-Mail to this address if getting a new Feedback
+define('fb_cfg_info_email',                        '');
+// Allow editing of Feedbacks in Backend 1=true 0=false
+define('fb_cfg_edit_feedbacks',                     1);
+// Publish new feedbacks immediately 1=true 0=false
+define('fb_cfg_publish_immediately',                1);
+</pre>
+<p>If you want to use the Feedback Module at multiple pages of your website you may set a default email address to which new comments will be sent. For example:</p>
+<p><strong>define('fb_cfg_info_email', 'eddie@sample.de')</strong> will automaticly use <strong>eddie@sample.de</strong> as email address if you insert a new section of type <em>Feedback </em>to any page.</p>
+<p>By default the Feedback Module allows to edit the user comments. Because this function may be misused for censoring the comments it is possible to remove the edit function from backend:</p>
+<p><strong>define('fb_cfg_edit_feedbacks', 0)</strong> will remove the edit function from backend.</p>
+<p>By default the <strong>Feedback Modul</strong> unlock and publish new comments directly and make them public.<br>
+If you want in general that all new comments should be reviewed before unlocking and publishing, you may use:</p>
+<p><strong>define('fb_cfg_publish_immediately', 0);</strong></p>
+  <div class="fb_help_disclaimer"><p>Further informations at <a href="https://forum.websitebaker.org/index.php/topic,8741.html" target="_blank">Website Baker Forum</a> (English).</p><p><em>Thank you!</em><br>
+Ralf Hertsch</p></div>
+</div>

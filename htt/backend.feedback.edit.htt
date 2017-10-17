@@ -1,0 +1,21 @@
+<div class="feedback_item">
+	<div class="fb_intro">{intro}</div>
+	<form name="fb_dialog" action="{action}" method="post">
+		<input type="hidden" name="page_id" value="{page_id}" />
+  	<div class="fb_sender">[{id}] <a href="mailto:{mailto}">{sender}</a> - {date}</div>
+    <div class="fb_header">
+    	<input type="text" name="fb_header" value="{header}" />
+    </div>
+    <div class="fb_text">
+    	<textarea name="fb_text" cols="40" rows="3">{text}</textarea>
+    </div>
+    <div class="fb_comment_header">{comment_header}</div>
+    <div class="fb_comment">
+	    <textarea name="fb_comment" cols="40" rows="3">{comment}</textarea>
+    </div>
+    <div class="fb_action">
+    	<input type="submit" name="fb_submit" value="{btn_submit}">&nbsp;
+      <input type="button" name="fb_abort" value="{btn_abort}" onclick="javascript: window.location = '{abort_location}'; return false;">
+    </div>
+  </form>
+</div>

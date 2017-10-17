@@ -1,0 +1,5 @@
+<tr>
+	<td colspan="2">
+  	<div class="fb_error">{error}</div>
+  </td>
+</tr>

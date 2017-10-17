@@ -1,0 +1,3 @@
+  <div class="feedback_error_msg">
+  	{error}
+  </div>

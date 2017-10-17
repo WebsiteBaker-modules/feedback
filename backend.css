@@ -1,0 +1,59 @@
+pre {
+  font: smaller;
+  margin: 10px;
+  padding: 10px;
+  background-color: #EEE8AA;
+  color: #00008B;
+}
+
+.feedback_item {
+  margin: 15px 0;
+}
+.feedback_item:nth-child(odd) {
+  background: #eaeaea;
+  padding: 1px 0;
+}
+.fb_sender {
+  margin: 10px 0;;
+}
+
+.fb_header {
+  font-weight: bold;
+}
+.fb_header input {
+  width: 100%;
+}
+
+.fb_text {
+  font-style: italic;
+}
+.fb_text textarea {
+  width: 100%;
+}
+
+.fb_comment {
+  margin: 10px 0 10px 30px;
+}
+
+.fb_comment textarea {
+  width: 100%;
+}
+
+.fb_comment_header {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.fb_help_btn {
+  text-align: right;
+}
+
+.fb_help_disclaimer {
+  font-size: smaller;
+  padding: 10px 0;
+}
+
+
+
+
+

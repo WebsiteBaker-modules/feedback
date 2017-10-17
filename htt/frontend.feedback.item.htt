@@ -1,0 +1,6 @@
+<div class="feedback_item">
+	<div class="fb_sender">{sender}</div>
+  <div class="fb_header">{header}</div>
+  <div class="fb_text">{text}</div>
+  {comment}
+</div>

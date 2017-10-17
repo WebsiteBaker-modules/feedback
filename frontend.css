@@ -1,0 +1,111 @@
+.feedback {
+  clear: both;
+    margin: 20px 0 10px 20px;
+    padding: 10px 0 0 0;
+    border-top: 1px solid #DCDCDC;
+	width:90%;
+}
+.feedback_intro {
+  background-image: url(img/feather.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  padding: 0px 0 5px 40px;
+  margin: 0 auto;
+  max-width: 340px;
+}
+.feedback_intro a{text-decoration:underline;}
+
+.feedback_error_msg {
+  margin: 15px 0;
+  padding: 15px;
+  background-color: #FFFACD;
+  color: #8B0000;
+  border: 1px solid #8B0000;
+}
+.feedback_item {
+  margin: 15px 0;
+  padding-left:40px;
+  padding-bottom:10px;
+  border-bottom:1px solid #DCDCDC;
+}
+.fb_sender{font-size:9px;}
+.fb_sender strong{font-size:11px;}
+.fb_header {
+  margin: 5px 0;
+  font-weight: bold;
+  color:#2164aa;
+}
+.fb_text {
+  font-style: italic;
+}
+.feedback_remark {
+  margin: 15px 0;
+  padding: 15px;
+  background-color: #FFFACD;
+  color: #003366;
+  border: 1px solid #00336;
+}
+.fb_comment {
+  margin: 10px 0 10px 30px;
+  font-size: 8pt;
+}
+.fb_comment_header {font-size:9px;}
+.fb_comment_header a {color:#B22222;font-size:11px}
+
+table#fb_id_table {
+  width: 450px;
+}
+#fb_id_table td {
+  vertical-align: middle;
+}
+input#fb_id_btn_abort,
+input#fb_id_btn_submit,
+textarea#fb_id_text,
+input#fb_id_header,
+input#fb_id_email,
+input#fb_id_name {
+  width: 100%;
+}
+input#fb_id_captcha {
+  /*width: 80px;*/
+  width: 100%;
+  margin: 0 15px 0 0;
+}
+input#fb_id_captcha_reload {
+  width: 155px;
+}
+.fb_title {
+  color: #404040;
+  background-color: transparent;
+  font-size: 8pt;
+  font-weight: bold;
+}
+.fb_intro {
+  padding: 0 0 0 10px;
+  font-size: 8pt;
+  font-weight: normal;
+}
+.fb_captcha_explain {
+  padding: 0;
+  font-size: 8pt;
+  font-weight: normal;
+}
+.fb_error {
+  margin: 15px 0;
+  padding: 15px;
+  color: #8B0000;
+  background-color: #EEE8AA;
+  border: 1px solid #8B0000;
+}
+
+td#captcha_display {
+  padding: 10px 5px 20px 0;
+  vertical-align: top;
+}
+td#captcha_value {
+  padding: 10px 0 20px 0;
+  vertical-align: top;
+}
+
+
+

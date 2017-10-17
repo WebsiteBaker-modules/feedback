@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * WIRD VOM FEEDBACK-MODUL NICHT VERWENDET !!!
+ * SIEHE CLASS.FEEDBACK.PHP
+ */
+
+?>

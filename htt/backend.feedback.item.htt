@@ -1,0 +1,7 @@
+<div class="feedback_item">
+	<div class="fb_sender">[{id}] <a href="mailto:{mailto}">{sender}</a> - {date}</div>
+  <div class="fb_header">{header}</div>
+  <div class="fb_text">{text}</div>
+  <div class="fb_comment">{comment}</div>
+  <div class="fb_action">{activate}[<a href="{link_delete}">{btn_delete}</a>]&nbsp;&nbsp;{edit}[<a href="{link_comment}">{btn_comment}</a>]</div>
+</div>

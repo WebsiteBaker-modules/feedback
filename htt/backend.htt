@@ -1,0 +1,20 @@
+<div class="feedback">
+	<h2>{header}</h2>
+  <div class="feedback_container">
+    {help}
+  	{intro}
+    <hr />
+    {feedbacks}
+    <hr />
+    <form name="fb_options" action="{form_action}" method="post">
+     	<input type="hidden" name="page_id" value="{page_id}">
+      <input type="hidden" name="section_id" value="{section_id}">
+			<input type="hidden" name="fb_action" value="save">
+			<p><input type="checkbox" name="latest_first" value="1"{latest_first_checked} />&nbsp;{latest_first_text}</p>
+			<p><input type="checkbox" name="publish_immediately" value="1"{publish_immediately_checked} />&nbsp;{publish_immediately_text}</p>
+      <p><input type="text" name="info_email" value="{info_email}" />&nbsp;{info_email_text}</p>
+			<p><input type="submit" name="fb_submit" value="{btn_save}">&nbsp;
+			<input name="fb_abort" type="button" value="{btn_abort}" onclick="javascript: window.location = '{abort_location}'; return false;"/></p>
+    </form>
+  </div>
+</div>

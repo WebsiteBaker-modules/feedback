@@ -1,0 +1,41 @@
+<a name="{anchor}"></a>
+<div class="feedback">
+  <form name="fb_dialog" action="{action}" method="post">
+  <input type="hidden" name="fb_action" value="{fb_action}" />
+  <table id="fb_id_table">
+  	<colgroup>
+    	<col width="40%" />
+      <col width="60%" />
+    </colgroup>
+    {error}
+    <tr>
+    	<td>
+        <div class="fb_title">{title_name}</div><input id="fb_id_name" type="text" name="fb_name" value="{name}" /><br />
+      	<div class="fb_title">{title_email}</div><input id="fb_id_email" type="text" name="fb_email" value="{email}" />
+      </td>
+      <td>
+      	<div class="fb_intro">{intro}</div>
+      </td>
+    </tr>
+    <tr>
+    	<td colspan="2">
+      	<div class="fb_title">{title_header}</div><input id="fb_id_header" type="text" name="fb_header" value="{header}" />
+    	</td>
+    </tr>
+    <tr>
+    	<td colspan="2">
+      	<div class="fb_title">{title_text}</div><textarea id="fb_id_text" name="fb_text" cols="40" rows="5">{text}</textarea>
+      </td>
+    </tr>
+    {captcha}
+    <tr>
+      <td>
+      	<input id="fb_id_btn_submit" type="submit" name="fb_submit" value="{btn_submit}" />
+      </td>
+    	<td>
+				<input id="fb_id_btn_abort" name="fb_abort" type="button" value="{btn_abort}" onclick="javascript: window.location = '{abort_location}'; return false;"/>
+      </td>
+    </tr>
+  </table>
+  </form>
+</div>

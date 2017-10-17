@@ -1,0 +1,8 @@
+<a name="{anchor}"></a>
+<div class="feedback_intro">{intro}</div>
+<div class="feedback">
+	<font size="2" color="#666666">Feedback</font>
+	{remark}
+	{feedbacks}
+	<!-- <div class="feedback_intro">{intro}</div> -->
+</div>

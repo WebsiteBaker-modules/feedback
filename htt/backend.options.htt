@@ -1,0 +1,6 @@
+<div class="feedback">
+	<h2>{header}</h2>
+  <div class="feedback_container">
+  	{intro}
+  </div>
+</div>

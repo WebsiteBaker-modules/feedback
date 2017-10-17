@@ -1,0 +1,13 @@
+<tr>
+	<td colspan="2">
+    <div class="fb_captcha_explain">{captcha_explain}</div>
+  </td>
+</tr>
+<tr>
+	<td>
+  	<img src="{captcha_url}" alt="Captcha" />
+  </td>
+  <td>
+  	<input id="fb_id_captcha" type="text" name="captcha" maxlength="5" />
+  </td>
+</tr>

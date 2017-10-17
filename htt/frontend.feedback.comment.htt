@@ -1,0 +1,4 @@
+<div class="fb_comment">
+	<div class="fb_comment_header">{header}</div>
+  <div class="fb_comment_text">{text}</div>
+</div>

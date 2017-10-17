@@ -1,0 +1,68 @@
+<?php
+
+/* 
+
+/**
+ * History:
+ *
+ * 1.1.0 - 19.06.2017 (jacobi22)
+ * fixed:		fix different functions in class.feedback.php && class.usecaptcha.php (thx to dbs)
+ * fixed:		some corrections at the INSERT's for MYSQL-STRICT_MODE
+ * fixed:		update forum-links on help pages
+
+* 1.0.1 - 22.11.2015
+ * fixed:		Notice: Undefined property: templateParser::$html in ...\modules\feedback\class.parser.php on line 42
+
+* 1.0.0 - 10.12.2013
+ * fixed:        captcha reload as requested here: http://www.websitebaker.org/forum/index.php/topic,8741.msg181945.html#msg181945
+ * fixed:				 captcha is only shown to guests, formerly it was shown to members also but didn't work form members
+ * added:				 delete link in feedback notification, thanks to dbs: http://www.websitebaker.org/forum/index.php/topic,26502.0.html
+ * fixed:				 as this module is mature and to distinguish it from its lepton version started version 1.x	
+
+* 0.33 - 01.06.2013
+ * fixed:         ' in comment causes error
+
+* 0.32 - 27.11.2010
+ * added:         IT.php, many thanks to Alberto Donzelli für translation
+
+* 0.31 - 07.09.2010
+ * fixed:         Datetime format in NL.php
+ * fixed:         deprecated functions in class.parser.php
+
+* 0.30 - 02.04.2010
+ * fixed:         XSS security patch
+
+* 0.29 - 02.05.2008
+ * added:         NL.php, many thanks to Ad Kalle for translation
+
+* 0.28 - 30.03.2008
+ * fixed:         Problem detecting if user is authenticated
+
+* 0.27 - 30.03.2008
+ * fixed:         WB 2.7: extended captcha don't show calculation operator
+ * added:         option to check comments before publishing
+ * added:         help function for backend
+
+* 0.26 - 08.03.2008
+ * fixed:         date/time string EN.php
+ * changed:       moved email body from template to language file
+ * fixed:         backend don't show actual email address after changing
+
+* 0.25 - 29.02.2008
+ * added:         extended captcha support for WB 2.7.x
+
+* 0.24 - 28.02.2008
+ * fixed:         security lack enables Cross Site Scripting
+
+* 0.23 - 23.02.2008
+ * fixed:         call undefined $_REQUEST['fb_action']
+
+0.22 - 19.02.2008
+ * added:         EN.php
+ * fixed:
+
+* 0.21 - 22.01.2008
+ * added:         Searching feature
+ */
+
+

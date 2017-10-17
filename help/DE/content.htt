@@ -1,0 +1,24 @@
+<div class="fb_help">
+	<h2>Hilfe zum Feedback Modul {version}</h2>
+  <p>Das <strong>Feedback Modul</strong> nutzt die Sprachdateien (EN.php, DE.php ...) um ein paar Voreinstellungen zu setzen:</p>
+<pre>/**
+ * The following Constants will be used as DEFAULT VALUES at new sections
+ */
+// Show Last Feedback First 1=true 0=false
+define('fb_cfg_latest_first',                       1);
+// Send E-Mail to this address if getting a new Feedback
+define('fb_cfg_info_email',                        '');
+// Allow editing of Feedbacks in Backend 1=true 0=false
+define('fb_cfg_edit_feedbacks',                     1);
+// Publish new feedbacks immediately 1=true 0=false
+define('fb_cfg_publish_immediately',                1);
+</pre>
+<p>Wenn Sie das <strong>Feedback Modul</strong> auf mehreren Seiten Ihrer Website nutzen m&ouml;chten, k&ouml;nnen Sie die E-Mail Adresse an die neue Kommentare gesendet werden sollen vorgeben:</p>
+<p><strong>define('fb_cfg_info_email', 'eddie@sample.de')</strong> verwendet <strong>eddie@sample.de</strong> automatisch als E-Mail Adresse, wenn Sie einen neuen Abschnitt vom Typ <em>Feedback </em>in irgendeine Seite einf&uuml;gen.</p>
+<p>In der Voreinstellung erlaubt das <strong>Feedback Modul </strong>das Bearbeiten von Kommentaren. Da diese Funktion f&uuml;r eine Zensur missbraucht werden kann, ist es m&ouml;glich sie aus dem Backend zu entfernen:</p>
+<p><strong>define('fb_cfg_edit_feedbacks', 0)</strong> entfernt die Funktion zum Bearbeiten von Kommentaren.</p>
+<p>In der Voreinstellung schaltet das <strong>Feedback Modul</strong> neue Kommentare sofort frei und macht sie &ouml;ffentlich sichtbar.<br>
+Wenn Sie generell m&ouml;chten, dass neue Kommentare erst nach einer Pr&uuml;fung freigeschaltet werden verwenden Sie:</p>
+<p><strong>define('fb_cfg_publish_immediately', 0);</strong></p>
+  <div class="fb_help_disclaimer"><p>Weitere Informationen &uuml;ber das <a href="https://forum.websitebaker.org/index.php/topic,8401.html" target="_blank">Website Baker Forum</a> (Deutsch).</p><p><em>Vielen Dank!</em></p><p>Ralf Hertsch</p></div>
+</div>
